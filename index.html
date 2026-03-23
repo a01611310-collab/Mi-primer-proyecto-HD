@@ -1,0 +1,181 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Guillermo del Toro</title>
+
+    <!-- Estilos CSS internos -->
+    <style>
+
+        html, body{
+            height:100%;
+        }
+
+        /* Estilo general del cuerpo de la página */
+        body{
+            background-color:#1C542D; /* Color de fondo verde oscuro */
+            background-image: url("wallpaper.jpg");
+            font-family: Arial, Helvetica, sans-serif; /* Tipografía agradable y legible */
+            margin:0;
+            padding:0;
+            text-align:center;
+            color:#5eafe5;
+
+            display:flex;
+            flex-direction:column;
+        }
+
+        /* Contenedor principal para limitar el ancho del contenido */
+        .contenedor{
+            width:90%;
+            max-width:1000px;
+            margin:auto;
+            padding:20px;
+
+            flex:1; /* Empuja el footer hacia abajo */
+        }
+
+        /* Estilo del título principal */
+        h1{
+            color:#6fa4da;
+            margin-top:30px;
+        }
+
+        /* Estilo del enlace externo */
+        a{
+            color:#a7caf8;
+            text-decoration:none;
+            font-weight:bold; /* Texto en negritas */
+        }
+
+        /* Cambia el estilo cuando el mouse pasa sobre el enlace */
+        a:hover{
+            text-decoration:underline;
+        }
+
+        /* Estilo de la imagen */
+        img{
+            margin:20px 0;
+            border-radius:10px; /* Bordes redondeados */
+            max-width:33%;
+            height:auto;
+        }
+
+        /* Estilo del texto introductorio */
+        .intro{
+            font-size:18px;
+        }
+
+        .seccion-intermedia{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            margin-top:40px;
+            text-align:AUTO;
+        }
+
+        .seccion-intermedia .texto{
+            width:60%;
+            margin-left:auto;
+        }
+
+        .seccion-intermedia .imagen{
+            width:90%;
+        }
+        
+        /* Estilo del footer al final de la página */
+        footer{
+            padding:20px;
+            background:#041905;
+            font-style:italic; /* Texto en itálicas */
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Contenedor principal del contenido -->
+    <div class="contenedor">
+
+        <!-- Título principal de la página -->
+        <h1>Guillermo del Toro</h1>
+
+        <!-- Texto introductorio con algunas palabras en negritas e itálicas -->
+        <p class="intro">
+            Guillermo del Toro es un director, guionista y productor mexicano, nacido el 9 de octubre de 1964 en Guadalajara. Desde sus inicios mostró interés por el cine oscuro y de horror. Comenzó su carrera trabajando en efectos especiales y maquillaje antes de convertirse en cineasta.
+        </p>
+
+        <!-- Enlace externo que abre en una nueva pestaña -->
+        <p>
+            Visita este sitio:
+            <a href="https://www.imdb.com/es/name/nm0868219/" target="_blank">
+                Conoce más de él y todas sus obras
+            </a>
+        </p>
+
+        <!-- Imagen principal -->
+        <img src="https://citas.in/media/authors/guillermo-del-toro.jpeg">
+        <div class="contenedor">
+
+        <!-- Título principal de la página -->
+        <h2>Principales obras</h2>
+        <!-- Sección intermedia con imagen a la izquierda y texto a la derecha -->
+        <div class="seccion-intermedia">
+            <div class="imagen">
+                <img src="CRONOS.jpg" alt="Portada Cronos">
+            </div>
+
+            <div class="texto">
+                <p>
+                    Su primer largometraje como director y guionista fue "Cronos" publicada en 1993.
+                </p>
+            </div>
+        </div>
+        <div class="seccion-intermedia">
+            <div class="imagen">
+                <img src="El-laberinto-del-Fauno.jpg" alt="Portada El-laberinto-del-Fauno">
+            </div>
+
+            <div class="texto">
+                <p>
+                    El laberinto del Fauno es una de sus obras más reconocidas y con esta película estuvo nominado por primera vez a dos categorías de los Oscar en el 2007.
+                </p>
+            </div>
+        </div>
+        <div class="seccion-intermedia">
+            <div class="imagen">
+                <img src="Shapeofwater.jpg" alt="Portada La forma del agua">
+            </div>
+
+            <div class="texto">
+                <p>
+                    La Forma del agua (The Shape of Water) es la obra que finalmente le otorga sus primeros Oscar en el 2018.
+                    Fue galardonado en dos categorías, Mejor Pelicula y Mejor Director.
+                </p>
+            </div>
+        </div>
+         <div class="seccion-intermedia">
+            <div class="imagen">
+                <img src="Frankenstein.jpg" alt="Portada Frankenstein">
+            </div>
+
+            <div class="texto">
+                <p>
+                    Frankenstein es su obra más reciente (2025), con esta logró dos nominaciones, Mejor Pelicula y Mejor Guión adaptado, aunque él no ganó ninguna de estas categorías, la pelicula si fue 3 veces galardonada por maquillaje y peinado, vestuario y producción
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        Creado por ChatGPT. y Eugenia Rodriguez.
+    </footer>
+
+</body>
+
+</html>
